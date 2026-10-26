@@ -726,3 +726,174 @@ header #header-bottom nav ul li a.activ {
     width: 433px;
     height: 160px;
 }
+#servicii {
+    
+    background-color: #FFFFFF;
+    padding: 64px 0 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#servicii .eticheta {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #1D4ED8;
+    text-transform: uppercase;
+}
+
+#servicii h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #0B1530;
+    margin: 6px 0 4px;
+    text-align: center;
+}
+
+#servicii .subtitlu {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #64748B;
+    margin: 0 0 48px;
+    text-align: center;
+}
+
+#servicii .pachete {
+    width: 879px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+#servicii .pachet {
+    width: 279px;
+    height: 389px;
+    box-sizing: border-box;
+    padding: 28px 24px 24px;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+#servicii .pachet-recomandat {
+    height: 418px;
+    background-color: #0B1530;
+    border: 1px solid #0B1530;
+}
+
+#servicii .insigna-pachet {
+    position: absolute;
+    top: -14px;
+    left: 80px;
+    width: 125px;
+    height: 26px;
+    background-color: #D97706;
+    color: #FFFFFF;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+#servicii .titlu-pachet {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0B1530;
+    margin-top: 10px;
+}
+
+#servicii .pachet-recomandat .titlu-pachet {
+    color: #FFFFFF;
+}
+
+
+#servicii .pret-rand {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    margin: 14px 0 20px;
+}
+
+#servicii .pret {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: #0B1530;
+}
+
+#servicii .pachet-recomandat .pret {
+    color: #FFFFFF;
+}
+
+#servicii .pret-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #64748B;
+}
+
+#servicii .pachet-recomandat .pret-text {
+    color: #94A3B8;
+}
+
+
+#servicii .lista {
+    width: 232px;
+}
+
+#servicii .punct-lista {
+    display: flex;
+    gap: 10px;
+    padding: 7px 0;
+    border-bottom: 1px dashed #E2E8F0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0B1530;
+}
+
+#servicii .punct-lista span {
+    color: #1D4ED8;
+}
+
+#servicii .pachet-recomandat .punct-lista {
+    color: #FFFFFF;
+    border-bottom: 1px dashed #334155;
+}
+
+#servicii .pachet-recomandat .punct-lista span {
+    color: #D97706;
+}
+
+#servicii button {
+    width: 186px;
+    height: 44px;
+    margin-top: auto;
+    background-color: transparent;
+    color: #1D4ED8;
+    border: 2px solid #1D4ED8;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#servicii .pachet-recomandat button {
+    background-color: #D97706;
+    color: #FFFFFF;
+    border: 2px solid #D97706;
+}
