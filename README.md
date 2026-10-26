@@ -4,4 +4,4 @@
 
 [github.com/bogdanvangheli/pdaw-macheta-09](https://github.com/bogdanvangheli/pdaw-macheta-09)
 
--Imagini: Wikimedia Commons
+Imagini: Wikimedia Commons
