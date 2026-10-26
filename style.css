@@ -397,7 +397,7 @@ header #header-bottom nav ul li a.activ {
     border-radius: 14px;
 }
 
-#de-ce-noi .why-icon {
+#de-ce-noi .icon {
     width: 48px;
     height: 48px;
     border-radius: 10px;
@@ -408,7 +408,7 @@ header #header-bottom nav ul li a.activ {
     font-size: 24px;
 }
 
-#de-ce-noi .why-title {
+#de-ce-noi .title {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 17px;
@@ -416,10 +416,313 @@ header #header-bottom nav ul li a.activ {
     margin-top: 18px;
 }
 
-#de-ce-noi .why-desc {
+#de-ce-noi .desc {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #64748B;
     margin-top: 2px;
+}
+
+#oferte-noi {
+    background-color: #F7F9FD;
+    padding: 64px 0 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#oferte-noi .eticheta {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #1D4ED8;
+    text-transform: uppercase;
+}
+
+#oferte-noi h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #0B1530;
+    margin: 6px 0 4px;
+    text-align: center;
+}
+
+#oferte-noi .subtitlu {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #64748B;
+    margin: 0 0 36px;
+    text-align: center;
+}
+
+
+#oferte-noi .proprietati {
+    width: 880px;
+    display: grid;
+    grid-template-columns: repeat(2, 428px);
+    gap: 22px;
+}
+
+#oferte-noi .card-proprietate {
+    height: 210px;
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+#oferte-noi .imagine-card {
+    position: relative;
+    width: 188px;
+    
+}
+
+#oferte-noi .imagine-card img {
+    width: 100%;
+    height: 100%;
+    
+    display: block;
+}
+
+#oferte-noi .insigna {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    padding: 5px 12px;
+    background-color: #D97706;
+    color: #FFFFFF;
+    border-radius: 999px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+#oferte-noi .text-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 22px 22px 20px;
+}
+
+#oferte-noi .stele {
+    color: #F59E0B;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#oferte-noi .titlu-card {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: #0B1530;
+    margin: 6px 0 4px;
+}
+
+#oferte-noi .descriere-card {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #64748B;
+    margin: 0;
+}
+
+
+#oferte-noi .pret-vechi {
+    display: block;
+    margin-top: auto;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #94A3B8;
+    text-decoration: line-through;
+}
+
+#oferte-noi .rand-pret {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+
+#oferte-noi .pret {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1D4ED8;
+}
+
+#oferte-noi a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #1D4ED8;
+    text-decoration: none;
+}
+#clienti {
+    background-color: #FFFFFF;
+    padding: 64px 0 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clienti .eticheta {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #1D4ED8;
+    text-transform: uppercase;
+}
+
+#clienti h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #0B1530;
+    margin: 6px 0 0;
+}
+
+
+#clienti .ghilimele {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    height: 135px;
+    color: #1D4ED8;
+}
+
+#clienti .recenzie {
+    width: 611px;
+    margin: 40px 0 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #0B1530;
+    text-align: center;
+}
+
+#clienti .autor {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 36px;
+}
+
+#clienti .icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 999px;
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#clienti .nume-autor {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #0B1530;
+}
+
+#clienti .detalii-autor {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #64748B;
+}
+
+
+#clienti .puncte {
+    display: flex;
+    gap: 8px;
+    margin-top: 28px;
+}
+
+#clienti .punct {
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    background-color: #E2E8F0;
+}
+
+#clienti .punct.activ {
+    background-color: #1D4ED8;
+}
+#portofoliu {
+    background-color: #F7F9FD;
+    padding: 64px 0 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#portofoliu .eticheta {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #1D4ED8;
+    text-transform: uppercase;
+}
+
+#portofoliu h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #0B1530;
+    margin: 6px 0 36px;
+}
+
+#portofoliu .galerie {
+    width: 880px;
+    display: flex;
+    gap: 12px;
+}
+
+#portofoliu .dreapta {
+    width: 434px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+#portofoliu .sus {
+    display: flex;
+    gap: 12px;
+}
+
+
+#portofoliu img {
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
+
+#portofoliu .stanga img {
+    width: 433px;
+    height: 334px;
+}
+
+
+#portofoliu .sus img {
+    width: 210px;
+    height: 160px;
+}
+
+
+#portofoliu .jos img {
+    width: 433px;
+    height: 160px;
 }
